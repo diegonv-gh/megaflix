@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #151313;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    background: linear-gradient(to right, black, gray, rgb(80, 80, 80), black);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#icones {
+    justify-content: space-around;
+}
+
+#megaflix {
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#fmv {
+    margin-top: 150px;
+    background: linear-gradient(to right, rgb(60, 15, 15), #BD2828), rgb(224, 92, 92);
+    padding: 10px;
+    width: 100%;
+}
+
+#maisVistos {
+    margin: 0 auto;
+}
+
+td {
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+    transition: transform 0.3s;
+    background: linear-gradient(to top, rgb(57, 57, 57), rgb(80, 80, 80), gray);
+}
+
+#fr {
+    background: linear-gradient(to right, rgb(60, 15, 15), #BD2828), rgb(224, 92, 92);
+    padding: 10px;
+    width: 100%;
+}
+
+#recomendados {
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+td:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, black, gray, rgb(80, 80, 80), black);
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-image: url(../imagens/Desktop\ -\ 5.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 3px 2px 7px black;
+}
+
+#titulo {
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+main {
+    margin-left: 150px;
+}
+
+#quemSouEu{
+    display: flex;
+    gap: 100px;
+}
+
+header {
+    background: linear-gradient(to right, black, gray, rgb(80, 80, 80), black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, black, gray, rgb(80, 80, 80), black);
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+
+}
