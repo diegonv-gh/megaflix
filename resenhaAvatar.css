@@ -14,7 +14,6 @@ header {
     left: 0;
     z-index: 10;
     display: flex;
-    
     width: 100%;
     padding: 10px;
 }
@@ -22,7 +21,8 @@ header {
 #conteudo {
     text-align: left;
     margin-bottom: 100px;
-    margin-right: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 #resenha {
@@ -32,6 +32,7 @@ header {
     text-align: justify;
     margin-left: 30px;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #avaliacao {
@@ -41,8 +42,8 @@ header {
 #botaoAssistir {
     background-color: rgb(255, 255, 255);
     color: #494949;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     width: 500px;
     margin: 0 auto;
     margin-top: 20px;
@@ -57,13 +58,12 @@ header {
 }
 
 #avatar {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
-    gap: 80px;
+    gap: 150px;
 }
-
 #botaoVoltar {
     transition: transform 0.3s;
 }

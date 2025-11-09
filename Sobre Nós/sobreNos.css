@@ -3,7 +3,7 @@ body {
     background-image: url(../imagens/Desktop\ -\ 5.png);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    text-shadow: 3px 2px 7px black;
+    /* text-shadow: 3px 2px 7px black; */
 }
 
 #titulo {

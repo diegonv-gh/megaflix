@@ -22,6 +22,7 @@ header {
     text-align: left;
     margin-bottom: 100px;
     margin-right: 200px;
+    margin-left: 100px;
 }
 
 #resenha {
@@ -31,6 +32,7 @@ header {
     text-align: justify;
     margin-left: 30px;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #avaliacao {
@@ -40,8 +42,8 @@ header {
 #botaoAssistir {
     background-color: rgb(255, 255, 255);
     color: #494949;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
     width: 500px;
     margin: 0 auto;
     margin-top: 20px;
@@ -56,11 +58,16 @@ header {
 }
 
 #reiLeao {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     /* text-align: center; */
-    align-items: center;
-    gap: 80px;
+    align-items: top;
+    gap: 150px;
+}
+
+#imagem_rei_leao {
+    margin-left: 150px;
 }
 
 #botaoVoltar {
